@@ -19,7 +19,9 @@
       "@components/*": ["components/*"],
       "@images/*": ["images/*"],
       "@math/*": ["math/*"],
-      "@styles/*": ["styles/*"]
+      "@math": ["math/index"],
+      "@styles/*": ["styles/*"],
+      "@colorpicker/*": ["components/colorpicker/*"]
     }
   },
   "include": ["src"]

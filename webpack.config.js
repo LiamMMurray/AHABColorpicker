@@ -29,10 +29,11 @@ module.exports = {
         ]
     },
     resolve: {
-        extensions: ['.tsx', '.ts', '.js'],
+        extensions: ['.tsx', '.ts', '.js', '.svg'],
         alias:
         {
             "@components": path.resolve(__dirname, './src/components'),
+            "@colorpicker": path.resolve(__dirname, './src/components/colorpicker'),
             "@math": path.resolve(__dirname, './src/math'),
             "@images": path.resolve(__dirname, './src/images'),
             "@styles": path.resolve(__dirname, './src/styles'),
